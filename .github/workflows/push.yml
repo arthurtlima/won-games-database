@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: arthur11/wongames-database:latest
+          tags: arthur11/won-games-database:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
